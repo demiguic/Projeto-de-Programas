@@ -11,12 +11,9 @@ public class Petshop {
         int luxo = 50;
 
         switch (servico) {
-            case "basico":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
-            case "medio":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
-            case "luxo":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
+            case "basico" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
+            case "medio" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
+            case "luxo" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
         }
     }
 
@@ -26,12 +23,9 @@ public class Petshop {
         int luxo = 40;
 
         switch (servico) {
-            case "basico":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
-            case "medio":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
-            case "luxo":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
+            case "basico" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
+            case "medio" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
+            case "luxo" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
         }
     }
 
@@ -41,12 +35,9 @@ public class Petshop {
         int luxo = 230;
 
         switch (servico) {
-            case "basico":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
-            case "medio":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
-            case "luxo":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
+            case "basico" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
+            case "medio" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
+            case "luxo" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
         }
     }
 
@@ -56,12 +47,9 @@ public class Petshop {
         int luxo = 100;
 
         switch (servico) {
-            case "basico":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
-            case "medio":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
-            case "luxo":
-                gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
+            case "basico" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + basico);
+            case "medio" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + medio);
+            case "luxo" -> gato.getDono().setValorCobrado(gato.getDono().getValorCobrado() + luxo);
         }
     }
 
